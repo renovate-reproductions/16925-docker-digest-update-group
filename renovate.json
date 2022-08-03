@@ -3,10 +3,11 @@
   "extends": [
     "config:base"
   ],
-  "packageRules":[
+  "semanticCommits": "enabled",
+  "packageRules": [
     {
       "matchPackagePatterns": ["^mcr\\.microsoft\\.com\\/dotnet\\/"],
       "groupName": "dotnet docker images"
-    },
+    }
   ]
 }
